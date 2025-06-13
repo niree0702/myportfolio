@@ -16,10 +16,6 @@ body.dark {
    box-sizing: border-box;
 }
 
-* {
-  margin: 0.2;
-  padding: 0.2;
-  box-sizing: border-box;
 }
 
 body {
@@ -78,13 +74,6 @@ section {
   text-decoration: none;
 }
 
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #222;
-  color: black;
-  margin-top: 2rem;
-}
 
 /* Responsive Design */
 @media (max-width: 600px) {
