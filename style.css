@@ -104,6 +104,13 @@ body {
   border-radius: 8px;
 }
 
+.contact section {
+  background: var(--card);
+  padding: 1rem;
+  border-radius: 8px;
+}
+  
+
 .social media {
   background: var(--card);
   padding: 1rem;
