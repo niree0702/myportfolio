@@ -2,114 +2,138 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 </head>
 <body>
+
   <header>
-    <nav class="navbar">
-      <div class="logo">My Portfolio</div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="resume.pdf" download class="resume-btn">Download Resume</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1 class="logo">NIREEKSHA DEVADIGA</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="resume.pdf" download>Resume</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section id="ABOUT">
-    <h2>ABOUT ME</h2>
-    <p>I’m a web developer with a love for clean uI and solving real world problems .I enjoy building web applications that blend functionality with simplicity and currently pursuing Bsc in chemistry and computer science .
-</p>
-</section>
-
-
-  <section id="SKILLS">
-    <h2>SKILLS</h2>
-    <ul class="skills list">
-      <li>HTMl</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>c++</li>
-      <li>c</li>
-      <li>java</li>
-      <li>sql</li>
-      <li>data structure</li>
-    </ul>
+  <section id="about">
+    <div class="container">
+      <h2>ABOUT ME</h2>
+      <p>I'm a passionate developer skilled in front-end and back-end technologies. I enjoy building interactive and responsive web apps that solve real-world problems.</p>
+    </div>
   </section>
 
-  <section id="PROJECTS">
-    <h2>PROJECTS</h2>
-    <div class="project">
-      <h3>Project 1</h3>
-      <p> my personal portfolio website</p>
+  <section id="skills">
+    <div class="container">
+      <h2>SKILLS</h2>
+      <div class="skills-grid">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>C</span>
+        <span>C++</span>
+        <span>DATA STRUCTURE</span>
+        <span>SQL</span>
+        <span>GitHub</span>
+      </div>
     </div>
-    <div class="project">
-      <h3>Project 2</h3>
-      <p>Responsive landing page for a startup.</p>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <h2>EDUCATION</h2>
+      <ul>
+        <li><strong>Bachelor of SCIENCE</strong> – St Agnes college autonomous,mangalore. 2023–2026</li>
+        <li><strong>PCMC(Science)</strong> – BGS First Grade PU College,kavoor 2021–2023</li>
+        <li><strong>SSLC</strong>–Vidya Jyothi English Medium School,Vamanjoor 2020–2021</li>
+      </ul>
     </div>
-    <div class="project">
-      <h3>Project 3</h3>
-      <p>Digital Resume Builder</p>
-      </div>
-      <div class="project">
-      <h3>Project 4</h3>
-      <p>To-Do List Web App</p>
-      </div>
-      <div class="project">
-      <h3>Project 5</h3>
-      <p>Student Management Dashboard</p>
-      </div>
-      <div class="project">
-      <h3>Project 6</h3>
-      <p>College Club website</p>
-      </div>
-      <div class="project">
-      <h3>Project 7</h3>
-      <p>Blog Website with Markdown Support</p>
-      </div>
-      <div class="project">
-      <h3>Project 8</h3>
-      <p>E-Commerce Product Listing Page</p>
-      </div>
-    </section>
+  </section>
 
-  <section id="CONTACT SECTION">
-    <h2>CONTACTS</h2>
-    <div class="contact section">
-    <p>NAME : Nireeksha Devadiga</p>
-    <p>EMAIL : <a href="mailto:nireekshadevadiga7@gmail.com">nireekshadevadiga7@gmail.com</a></p>
-    <p>ADDRESS : Mangalore</p>
+  <section id="certifications">
+    <div class="container">
+      <h2>CERTIFICATIONS</h2>
+      <ul>
+        <li>Data science course – infosys</li>
+        <li>Time management course – infosys</li>
+        <li>Introduction to artificial intellegence – infosys</li>
+      </ul>
     </div>
-    </section>
+  </section>
 
-    <section id="SOCIAL MEDIA">
-      <h2>LINKS</h2>
-      <p>Connect via below links!</p>
-   <div class="social media"> 
-     <li><a href="https://github.com/niree0702" target="_blank">GitHub</a>
-      </li>
-       <li><a href="https://linkedin.com/in/nireeksha-devadiga-57323336a" target="_blank">LinkedIn</a>
-        </li> 
-    <li><a href="https://instagram.com/__nireeksha._" target="_blank">instagram</a> 
-      </li>
-      <li><a href="https://Telegram.com/Niree27" target="_blank">telegram</a>
-        </li>
-   </div>
-    </section>
+  <section id="projects">
+    <div class="container">
+      <h2>PROJECTS</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3> Personal Portfolio Website</h3>
+          <p> Portfolio Website that highlights skills,
+education, certifications, projects, achievements, and includes a
+downloadable resume</p>
+        </div>
+        <div class="project-card">
+          <h3>Responsive Landing Page for a Startup</h3>
+          <p>Design and build a modern landing page for a fictional startup or
+service of choice</p>
+        </div>
+        <div class="project-card">
+          <h3>Digital Resume Builder
+Problem</h3>
+          <p>BuildS a resume generator web app where users fill out a form
+and get a professional-looking resume that can be downloaded
+as a PDF.</p>
+        </div>
+        <div class="project-card">
+          <h3>Digital Resume Builder
+Problem</h3>
+          <p>BuildS a resume generator web app where users fill out a form
+and get a professional-looking resume that can be downloaded
+as a PDF.</p>
+        </div>
 
-  <section id="Download">
-    <h2>DOWNLOAD</h2>
-    <p>Download right here!</p>
-    <a href="resume.pdf" download class="resume-btn">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <div class="container">
+      <h2>Achievements</h2>
+      <ul>
+        <li>COMPLETED JAVA</li>
+        <li>COMPLETED SQL</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong>nireekshadevadiga7@gmail.com</p>
+      <p><strong>Phone:</strong> +91 7899074349</p>
+      <div class="social-links">
+        <a href="https://github.com/niree0702" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/nireeksha-devadiga-57323336a" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://Telegram.com/Niree27" target="_blank"><i class="fab fa-Telegram"></i></a>
+        <a href="https://Instagram.com/__nireeksha._" target="_blank"><i class="fab fa-Telegram"></i></a>
+      </div>
+    </div>
   </section>
 
   <footer>
- <p>&copy; 2025 nireeksha devadiga. All rights reserved.</p>
+    <p>&copy; 2025 NIREEKSHA DEVADIGA. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
