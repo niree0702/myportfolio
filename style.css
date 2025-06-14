@@ -175,6 +175,69 @@ footer {
 .resume-button:hover::after {
   height: 250%;
 }
+/* Floating Nav */
+.floating-nav {
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.floating-nav a {
+  color: #333;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.floating-nav a:hover {
+  color: #0077ff;
+  transform: scale(1.2);
+}
+
+/* Social Links */
+.social-links a {
+  margin: 0 10px;
+  font-size: 22px;
+  color: #555;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+}
+
+.social-links .instagram:hover { color: #E1306C; }
+.social-links .telegram:hover { color: #0088cc; }
+.social-links .linkedin:hover { color: #0077b5; }
+.social-links .github:hover { color: #333; }
+
+/* Resume Download Button */
+.resume-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 16px;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(110, 142, 251, 0.4);
+}
+
+.resume-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(110, 142, 251, 0.6);
+}
+
 
 @media (max-width: 768px) {
   nav ul {
