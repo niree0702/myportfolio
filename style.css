@@ -35,6 +35,13 @@ body {
     opacity: 1;
   }
 }
+header h1 {
+  color: black;
+  font-size: 2.5rem; /* You can adjust size if needed */
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
 
 header {
   background: #111;
